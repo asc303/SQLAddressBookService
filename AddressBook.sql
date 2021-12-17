@@ -19,3 +19,6 @@ Update address_Book set Email = 'singhaditya94gmail.com' where Firstname = 'Adit
 Delete From address_Book where Firstname = 'Ashish';
 select * from address_Book 
 
+Select City From address_Book Where Firstname = 'Ashutosh';
+Select State From address_Book Where Firstname = 'Abhi'
+
