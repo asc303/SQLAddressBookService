@@ -27,3 +27,10 @@ Select COUNT(*) City From address_Book
 
 Select * From address_Book Where City = 'lko' Order By Firstname
 
+Alter Table address_Book Add ContactType varchar(27);
+Update address_Book Set ContactType = 'Family' Where Firstname = 'Ashutosh';
+Update address_Book Set ContactType = 'Family' Where PhoneNumber = '7896968574';
+Update address_Book Set ContactType = 'Friends' Where Lastname = 'Singh';
+Update address_Book Set ContactType = 'Friends' Where Email = 'singhsam94@gmail.com';
+Update address_Book Set ContactType = 'Profession' Where Firstname = 'Aditya';
+
