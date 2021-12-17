@@ -34,3 +34,4 @@ Update address_Book Set ContactType = 'Friends' Where Lastname = 'Singh';
 Update address_Book Set ContactType = 'Friends' Where Email = 'singhsam94@gmail.com';
 Update address_Book Set ContactType = 'Profession' Where Firstname = 'Aditya';
 
+Select ContactType, Count(*) as CountNumber From address_Book Group By ContactType;
