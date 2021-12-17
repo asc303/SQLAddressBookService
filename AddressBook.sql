@@ -13,3 +13,6 @@ insert into address_Book(Firstname,Lastname,address,City,State,Zip,PhoneNumber,E
 ( 'Ashish', 'Singh', 'Ghauhsabad', 'dehradun', 'Uttar Pardesh', '221002', '9692685632', 'singhashish94@gmail.com' ),
 ( 'Aditya', 'Singh', 'Ghauhsabad', 'lko', 'Uttar Pardesh', '221002', '9696895582', 'singhaditya94@gmail.com' );
 
+Update address_Book set PhoneNumber = '7017659790' where Firstname = 'Aditya';
+Update address_Book set Email = 'singhaditya94gmail.com' where Firstname = 'Aditya';
+
