@@ -16,3 +16,6 @@ insert into address_Book(Firstname,Lastname,address,City,State,Zip,PhoneNumber,E
 Update address_Book set PhoneNumber = '7017659790' where Firstname = 'Aditya';
 Update address_Book set Email = 'singhaditya94gmail.com' where Firstname = 'Aditya';
 
+Delete From address_Book where Firstname = 'Ashish';
+select * from address_Book 
+
