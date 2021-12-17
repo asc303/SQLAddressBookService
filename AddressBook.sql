@@ -22,3 +22,6 @@ select * from address_Book
 Select City From address_Book Where Firstname = 'Ashutosh';
 Select State From address_Book Where Firstname = 'Abhi'
 
+Select COUNT(*) State From address_Book
+Select COUNT(*) City From address_Book
+
